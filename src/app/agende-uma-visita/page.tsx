@@ -92,7 +92,6 @@ export default function AgendeUmaVisitaPage() {
           </form>
         </div>
 
-        {/* Seção institucional */}
         <section className="mt-20 text-center">
           <h3 className="mb-6 text-2xl font-bold tracking-wide text-gray-900">
             A LIONS ESTÁ COM VOCÊ EM CADA ENCONTRO

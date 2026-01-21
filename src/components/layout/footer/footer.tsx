@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Logo } from "../../logo";
 import { useSocialProviders } from "@/hooks/use-social-providers";
 
-export const Footer = () => {
+export function Footer() {
 	const socialProviders = useSocialProviders();
 
 	const shareConfig = {
@@ -23,12 +23,12 @@ export const Footer = () => {
 							Termos de uso
 						</Link>
 						<Link
-							href="/politica-de-privacidade"
+							href="/parceiro-de-negocio"
 							className="hover:text-red-300"
 						>
 							Parceiro de negócio
 						</Link>
-						<Link href="/feedback" className="hover:text-red-300">
+						<Link href="/trabalhe-conosco" className="hover:text-red-300">
 							Trabalhe conosco
 						</Link>
 					</nav>

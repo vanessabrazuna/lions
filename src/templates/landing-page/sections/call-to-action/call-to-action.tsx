@@ -2,7 +2,7 @@ import { ArrowRight, Car } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '../../../../components/ui/button';
 
-export const CallToAction = () => {
+export function CallToAction() {
   return (
     <section className="relative py-24 bg-gradient-to-b from-red-900/20 to-gray-700">
       <div className="absolute inset-0 bg-[url('/background-footer.svg')] bg-cover bg-center bg-no-repeat opacity-90" />

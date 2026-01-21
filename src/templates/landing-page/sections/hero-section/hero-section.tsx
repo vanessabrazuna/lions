@@ -10,7 +10,7 @@ import { BackgroundCarousel } from "@/components/background-carousel";
 import { useState } from "react";
 import DiscountModal from "@/components/DiscountModal/DiscountModal";
 
-export const HeroSection = () => {
+export function HeroSection() {
   const [open, setOpen] = useState(false);
 
   return (
@@ -50,7 +50,7 @@ export const HeroSection = () => {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
 
-              <p className="text-body-xs text-gray-300">
+              <p className="text-body-xs text-gray-200">
                 Ganhe desconto de até{" "}
                 <span className="font-semibold text-red-400">
                   R$ 3.000,00

@@ -1,8 +1,8 @@
 import { Inter, PT_Sans_Caption } from 'next/font/google';
-
 import { CallToAction } from '@/templates/landing-page/sections';
 import { Footer } from './footer';
 import { Header } from './header';
+import { WhatsAppButton } from '../whatsApp-button/WhatsAppButton';
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -19,7 +19,7 @@ const ptSansCaption = PT_Sans_Caption({
   variable: '--font-sans',
 });
 
-export const Layout = ({ children }: LayoutProps) => {
+export function Layout({ children }: LayoutProps) {
   return (
     <div
       className={`${inter.className} ${ptSansCaption.className} relative flex min-h-screen flex-col bg-gray-700`}
@@ -28,6 +28,8 @@ export const Layout = ({ children }: LayoutProps) => {
       <main className="flex-1 flex flex-col mt-10 mb-12">{children}</main>
       <CallToAction />
       <Footer />
+
+      <WhatsAppButton />
     </div>
   );
-};
+}
