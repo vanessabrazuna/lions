@@ -1,6 +1,6 @@
 # Lions
 
-![Descrição](https://i.postimg.cc/bv23dQLy/lions.png)
+![Descrição](https://i.postimg.cc/CLFbj8C4/lions.png)
 
 Projeto desenvolvido com **Next.js 14**, utilizando **React 19**, **TypeScript** e **Tailwind CSS v3**, seguindo o padrão **App Router**.
 
